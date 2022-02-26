@@ -43,6 +43,13 @@ img {
     padding-bottom: 30pxggit;
 }
 
+.three-cols .col {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
 @media screen and (max-width: 600px) {
     
 }
