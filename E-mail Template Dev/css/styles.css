@@ -2,3 +2,51 @@ body {
     margin: 0;
     padding: 0;
 }
+
+table {
+    border-spacing: 0;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    background-color: #f6f9fc;
+    padding-bottom: 40px;
+}
+
+.webkit {
+    max-width: 600px;
+    background-color: #ffffff;
+}
+
+.outer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #4a4a4a;
+}
+
+.three-cols {
+    text-align: center;
+    font-size: 0;
+    padding-top: 40px;
+    padding-bottom: 30pxggit;
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+@media screen and (max-width: 400px) {
+    
+}
