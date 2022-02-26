@@ -50,10 +50,36 @@ img {
     vertical-align: top;
 }
 
+.padding {
+    padding: 15px;
+}
+
+.three-cols .content {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #388CDA;
+    font-size: 16px;
+}
+
 @media screen and (max-width: 600px) {
-    
+    img.third-img-last {
+        width: 200px!important;
+        max-width: 200px!important;
+    }
+
+    .padding {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
 }
 
 @media screen and (max-width: 400px) {
-    
+    img.third-img {
+        width: 200px!important;
+        max-width: 200px!important;
+    }
 }
