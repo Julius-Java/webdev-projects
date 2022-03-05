@@ -1,125 +1,170 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Modern HTML Email Template</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
 
-<style>
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: #ccc;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 
-    table {
-        border-spacing: 0;
-    }
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #d8dada;
+    font-size: 19px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3%;
+}
 
-    td {
-        padding: 0;
-    }
+img {
+    max-width: 100%;
+}
 
-    img {
-        border: 0;
-    }
+header {
+    width: 98%;
+}
 
-    .wrapper {
-        width: 100%;
-        table-layout: fixed;
-        background-color: #ccc;
-        padding-bottom: 60px;
-    }
+#logo {
+    max-width: 120px;
+    margin: 3% 0 3% 3%;
+    /* padding: 5px; */
+    float: left;
+}
 
-    .main {
-        background-color: #fff;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 600px;
-        border-spacing: 0;
-        font-family: sans-serif;
-        color: #171a1b;
-    }
+#wrapper {
+    background-color: white;
+}
 
-    .two-cols {
-        text-align: center;
-        font-size: 0;
-    }
+#social {
+    float: right;
+    margin: 3% 2% 4% 3%;
+    list-style-type: none;
+}
 
-    .two-cols .col {
-        width: 100%;
-        max-width: 300px;
-        display: inline-block;
-        vertical-align: top;
-        text-align: center;
-    }
-</style>
+#social > li {
+    display: inline;
+}
+
+#social > li > a > img {
+    max-width: 35px;
+}
+
+h1, p {
+    margin: 3%;
+}
+
+.btn {
+    float: right;
+    margin: 0 2% 4% 0;
+    background-color: #303840;
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 8px 12px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+}
+
+hr {
+    height: 1px;
+    background-color: #303840;
+    clear: both;
+    width: 96%;
+    margin: 0 auto;
+}
+
+#contact {
+    text-align: center;
+    padding-bottom: 3%;
+    line-height: 17px;
+    font-size: 14px;
+    color: #303840;
+
+}
+
+
+    </style>
     <title>Document</title>
 </head>
 <body>
 
-<center class="wrapper">
+    <div id="wrapper">
+        <header>
+<!-- logo -->
+<div id="logo">
 
-    <table class="main" width="100%">
-<!-- TOP BORDER -->
-<tr>
-    <td height="8px" style="background-color: #171a1b;"></td>
-</tr>
+<img src="https://raw.githubusercontent.com/mdbootstrap/knowledge-base/main/CSS/responsive-email/img/logo.png" alt="">
 
-<!-- LOGO SECTION -->
-<tr>
-    <td style="padding: 14px 0 4px;">
-        <table width="100%">
+</div>
+<!-- end of logo -->
 
-            <tr>
-                <td class="two-cols">
+<!-- social links -->
+<div>
 
-                    <table class="col">
-                        <tr>
-                            <td>
+<ul id="social">
 
-                                <a href="index.html"><img src="https://i.ibb.co/02scHry/modern.jpg" width="180" alt="" title="Modern Logo"></a>
+<li>
+    <a href="" target="_blank"><img src="https://github.com/mdbootstrap/knowledge-base/blob/main/CSS/responsive-email/img/fb-color.png?raw=true" alt=""></a>
+</li>
+<li>
+    <a href="" target="_blank"><img src="https://github.com/mdbootstrap/knowledge-base/blob/main/CSS/responsive-email/img/in-color.png?raw=true" alt=""></a>
+</li>
+<li>
+    <a href="" target="_blank"><img src="https://github.com/mdbootstrap/knowledge-base/blob/main/CSS/responsive-email/img/tw-color.png?raw=true" alt=""></a>
+</li>
+<li>
+    <a href="" target="_blank"><img src="https://github.com/mdbootstrap/knowledge-base/blob/main/CSS/responsive-email/img/yt-color.png?raw=true" alt=""></a>
+</li>
 
-                            </td>
-                        </tr>
-                    </table>
+</ul>
 
-                    <table class="col">
-                        <tr>
-                            <td>
-                                <a href="#"><img src="https://i.ibb.co/zPc7Ldd/black-facebook.png" width="30" alt=""></a>
-                                <a href="#"><img src="https://i.ibb.co/GvggJh0/black-twitter.png" width="30" alt=""></a>
-                                <a href="#"><img src="https://i.ibb.co/8KFD34r/black-youtube.png" width="30" alt=""></a>
-                                <a href="#"><img src="https://i.ibb.co/xmg99qM/black-linkedin.png" width="30" alt=""></a>
-                                <a href="#"><img src="https://i.ibb.co/N9NDFf9/black-instagram.png" width="30" alt=""></a>
-                            </td>
-                        </tr>
-                    </table>
+</div>
+<!-- end of social links -->
 
-                </td>
-            </tr>
-            
-        </table>
-    </td>
-</tr>
+        </header>
+<!-- banner -->
+<div id="banner">
+    <img src="https://github.com/mdbootstrap/knowledge-base/blob/main/CSS/responsive-email/img/banner.png?raw=true" alt="">
+</div>
+<!-- end of banner -->
 
-<!-- BANNER IMAGE -->
+<!-- body texts -->
+<div class="one-col">
+
+<h1>Learn how to create emails in HTML</h1>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ducimus ad corporis, eaque deserunt tenetur aut amet vel ipsa, a illum exercitationem esse vitae porro cumque nesciunt quis iure aperiam?</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, explicabo a ad, voluptates molestiae perspiciatis totam, illum quo modi aliquam unde! Mollitia distinctio laboriosam cum sapiente officia dicta itaque labore error. Esse distinctio dicta ad numquam. Quisquam voluptatum aspernatur iure?</p>
+
+<a href="" class="btn">Learn More</a>
+
+<hr />
+
+<footer>
+
+<p id="contact">
+    Lorem ipsum <br>
+     dolor sit <br>
+     amet, consectetur <br>
+     adipisicing elit. 
+    </p>
+
+</footer>
+
+</div>
+<!-- end of body texts -->
 
 
-<!-- THREE COLUMN SECTION -->
 
 
-<!-- TWO COLUMN SECTION -->
-
-
-<!-- TITLE, TEXT & BUTTON -->
-
-
-<!-- FOOTER SECTION -->
-    </table>
-
-</center>
-
+    </div>
 </body>
 </html>
